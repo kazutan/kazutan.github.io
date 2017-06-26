@@ -1,0 +1,14 @@
+---
+title: "kazutan on web"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## hoge
+
+[WIP]

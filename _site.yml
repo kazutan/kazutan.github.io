@@ -1,0 +1,23 @@
+name: "kazutan on web"
+navbar:
+  title: "kazutan on web"
+  left:
+    - text: "about"
+      href: "about.html"
+  right:
+    - icon: fa-github
+      href: https://github.com/kazutan/
+    - icon: fa-twitter
+      href: https://twitter.com/kazutan
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    toc: true
+    toc_float:
+      collapse: false
+    df_print: "tibble"
+    include:
+      after_body: footer.html
+css: site_style.css
+output_dir: "docs"
